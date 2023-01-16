@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game {
+  border: solid 5px rgb(0, 0, 0);
+  min-width: 750px;
+  min-height: 700px;
+}
+
+.title-content {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  background-image: url("./images/splash.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.start-game-button {
+  padding: 15px 60px;
+  font-size: 30px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: solid 5px black;
+  margin-top: 500px;
+}
+
+.start-game-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
