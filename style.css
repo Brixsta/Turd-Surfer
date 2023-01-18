@@ -30,17 +30,17 @@
   background-image: url("./images/splash.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-position-y: 60px;
 }
 
 .start-game-button {
   padding: 15px 60px;
   font-size: 30px;
   border: none;
-  margin-top: 10px;
   border-radius: 20px;
   background-color: white;
   border: solid 5px black;
-  margin-top: 500px;
+  margin-top: 400px;
 }
 
 .start-game-button:hover {
